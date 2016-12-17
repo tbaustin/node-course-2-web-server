@@ -22,11 +22,11 @@ app.use((req, res, next) => {
   next();
 });
 
-app.use((req, res, next) => {
-  res.render('maintence.hbs', {
-    waitingMessage: 'We are currently undergoing maintence'
-  });
-});
+// app.use((req, res, next) => {
+//   res.render('maintence.hbs', {
+//     waitingMessage: 'We are currently undergoing maintence'
+//   });
+// });
 
 app.use(express.static(__dirname + '/public'));
 
