@@ -49,7 +49,7 @@ app.get('/', (req, res) => {
 app.get('/about', (req, res) => {
   res.render('about.hbs', {
     title: 'About Page',
-    pageTitle: 'About Page',
+    pageTitle: 'About Page'
   });
 });
 
